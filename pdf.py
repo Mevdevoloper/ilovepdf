@@ -38,10 +38,9 @@ Some of the main features are:
 ◍ `Convert PDF to images`
 ◍ `Convert files to pdf`
 
-Update Channel: @ilovepdf\_bot 🤩
+Update Channel: @CodeMasterTG 
 
-[Source Code 🏆](https://github.com/nabilanavab/ilovepdf)
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Write a feedback 📋](https://t.me/+4KDIm0IQ_NQ0NDdl)
 """
         key = types.InlineKeyboardMarkup()
         key.add(
@@ -61,19 +60,19 @@ Update Channel: @ilovepdf\_bot 🤩
                 try:
                     aboutDev = """About Dev:
 
-OwNeD By: @nabilanavab 😜
-Update Channel: @ilovepdf\_bot 😇
+OwNeD By: @CodeMasterTG
+Update Channel: @CodeMasterTG
 
-Lang Used: Python🐍
+Lang Used: Python
 [Source Code](https://github.com/nabilanavab/ilovepdf)
 
-Join @ilovepdf\_bot, if you ❤ this
+Join @CodeMasterTG, if you ❤ this
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Write a feedback 📋](https://t.me/+4KDIm0IQ_NQ0NDdl)
 """
                     key = types.InlineKeyboardMarkup()
                     key.add(
-                        types.InlineKeyboardButton("🔙 Home 🏡", callback_data="back")
+                        types.InlineKeyboardButton("🔙 Home", callback_data="back")
                     )
                     bot.edit_message_text(
                         chat_id=call.message.chat.id,
@@ -106,7 +105,7 @@ Images to pdf :
     - `/generate fileName` - to change pdf name to fileName🤞
     - `/generate name` - to get pdf with your telegram name
 
-For bot updates join @ilovepdf\_bot 💎
+For bot updates join @CodeMasterTG
 
 [Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
                     key = types.InlineKeyboardMarkup()
@@ -182,13 +181,13 @@ API LIMITS..😕
 
 For bot updates join @ilovepdf\_bot 💎
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+[Write a feedback 📋](https://t.me/+4KDIm0IQ_NQ0NDdl)"""
                     key = types.InlineKeyboardMarkup()
                     key.add(
                         types.InlineKeyboardButton(
                             "🔙 PDF to imgs", callback_data="imgsToPdfEdit"
                         ),
-                        types.InlineKeyboardButton("Home 🏡", callback_data="back"),
+                        types.InlineKeyboardButton("Home", callback_data="back"),
                         types.InlineKeyboardButton(
                             "WARNING ⚠️", callback_data="warningEdit"
                         ),
@@ -218,14 +217,14 @@ IF THERE IS ANY KIND OF REPORTING, BUGS, REQUESTS, AND SUGGESTIONS PLEASE CONTAC
 
 For bot updates join @ilovepdf\_bot 💎
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Write a feedback 📋](https://t.me/+4KDIm0IQ_NQ0NDdl)
 """
                     key = types.InlineKeyboardMarkup()
                     key.add(
                         types.InlineKeyboardButton(
                             "🔙 WARNING ⚠️", callback_data="warningEdit"
                         ),
-                        types.InlineKeyboardButton("Home 🏡", callback_data="back"),
+                        types.InlineKeyboardButton("Home", callback_data="back"),
                     )
                     bot.edit_message_text(
                         chat_id=call.message.chat.id,
