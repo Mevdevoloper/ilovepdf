@@ -34,11 +34,11 @@ def strt(message):
 Hey [{message.from_user.first_name}](tg://user?id={message.chat.id})..!! This bot will helps you to do many things with pdf's 🥳
 
 Some of the main features are:
-◍ `Convert images to PDF`
-◍ `Convert PDF to images`
-◍ `Convert files to pdf`
+✓ `Convert images to PDF`
+✓ `Convert PDF to images`
+✓ `Convert files to pdf`
 
-Update Channel: @CodeMasterTG 
+<b>Update Channel @CodeMasterTG</b> 
 
 [Write a feedback 📋](https://t.me/+4KDIm0IQ_NQ0NDdl)
 """
@@ -93,13 +93,12 @@ Images to pdf :
 
         Just Send/forward me some images. When you are finished; use /generate to get your pdf..😉
 
- ◍ Image Sequence will be considered 🤓
- ◍ For better quality pdfs(send images without Compression) 🤧
+ ✓ Image Sequence will be considered 🤓
+ ✓ For better quality pdfs(send images without Compression) 🤧
+ ✓ `/cancel` - Delete's the current Queue 😒
+ ✓ `/id` - to get your telegram ID 🤫
  
- ◍ `/cancel` - Delete's the current Queue 😒
- ◍ `/id` - to get your telegram ID 🤫
- 
- ◍ RENAME YOUR PDF:
+ • RENAME YOUR PDF:
  
     - By default, your telegram ID will be treated as your pdf name..🙂
     - `/generate fileName` - to change pdf name to fileName🤞
@@ -107,7 +106,8 @@ Images to pdf :
 
 For bot updates join @CodeMasterTG
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+[Write a feedback 📋](https://t.me/+4KDIm0IQ_NQ0NDdl
+)"""
                     key = types.InlineKeyboardMarkup()
                     key.add(
                         types.InlineKeyboardButton("🔙 Home 🏡", callback_data="back"),
@@ -141,15 +141,16 @@ PDF to images:
  
 1st bot on telegram wich send images without converting entire pdf to images
 
-For bot updates join @ilovepdf\_bot 💎
+<b>For bot updates join @CodeMasterTG</b>
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+[Write a feedback 📋](https://t.me/+4KDIm0IQ_NQ0NDdl
+)"""
                     key = types.InlineKeyboardMarkup()
                     key.add(
                         types.InlineKeyboardButton(
                             "🔙 Imgs To Pdf", callback_data="imgsToPdfEdit"
                         ),
-                        types.InlineKeyboardButton("Home 🏡", callback_data="back"),
+                        types.InlineKeyboardButton("Home", callback_data="back"),
                         types.InlineKeyboardButton(
                             "file to Pdf ➡️", callback_data="filsToPdfEdit"
                         ),
@@ -179,7 +180,7 @@ Files to PDF:
 ◍ added 30+ new file formats that can be converted to pdf..
 API LIMITS..😕
 
-For bot updates join @ilovepdf\_bot 💎
+<b>For bot updates join @CodeMasterTG<\b> 
 
 [Write a feedback 📋](https://t.me/+4KDIm0IQ_NQ0NDdl)"""
                     key = types.InlineKeyboardMarkup()
@@ -215,7 +216,7 @@ WARNING MESSAGE ⚠️:
 
 IF THERE IS ANY KIND OF REPORTING, BUGS, REQUESTS, AND SUGGESTIONS PLEASE CONTACT @nabilanavab
 
-For bot updates join @ilovepdf\_bot 💎
+<b>For bot updates join @CodeMasterTG</b>
 
 [Write a feedback 📋](https://t.me/+4KDIm0IQ_NQ0NDdl)
 """
@@ -248,14 +249,15 @@ Some of the main features are:
 ◍ `Convert PDF to images`
 ◍ `Convert files to pdf`
 
-For bot updates join @ilovepdf\_bot 💎
+<b>For bot updates join @CodeMasterTG</b>
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Write a feedback 📋](https://t.me/+4KDIm0IQ_NQ0NDdl
+)
 """
                     key = types.InlineKeyboardMarkup()
                     key.add(
                         types.InlineKeyboardButton(
-                            "Source Code ❤️", callback_data="strtDevEdt"
+                            "More", callback_data="strtDevEdt"
                         ),
                         types.InlineKeyboardButton(
                             "Explore More 🥳", callback_data="imgsToPdfEdit"
@@ -291,9 +293,10 @@ def UsrId(message):
 def feedback(message):
     bot.send_chat_action(message.chat.id, "typing")
     feedbackMsg = f"""
-For bot updates join @ilovepdf\_bot 💎
+<b>For bot updates join @CodeMasterTG</b>
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Write a feedback 📋](https://t.me/+4KDIm0IQ_NQ0NDdl
+)
 """
     bot.send_message(message.chat.id, feedbackMsg, disable_web_page_preview=True)
 
