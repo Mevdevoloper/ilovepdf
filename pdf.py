@@ -30,15 +30,17 @@ def strt(message):
     
     try:
         bot.send_chat_action(message.chat.id, "typing")
-        strtMsg = f"""
-Hey [{message.from_user.first_name}](tg://user?id={message.chat.id})..!! This bot will helps you to do many things with pdf's 🥳
+        startMsg = f"""
+Hey [{message.from_user.first_name}](tg://user?id={message.from_user.id})..!! This bot will help you do many things with PDFs 🥳
 
 Some of the main features are:
-✓ `Convert images to PDF`
-✓ `Convert PDF to images`
-✓ `Convert files to pdf`
+✓ Convert images to PDF
+✓ Convert PDF to images
+✓ Convert files to PDF
 
-<b>Update Channel @CodeMasterTG</b> 
+<b>Update Channel: @CodeMasterTG</b>
+"""
+
 
 [Write a feedback 📋](https://t.me/+4KDIm0IQ_NQ0NDdl)
 """
